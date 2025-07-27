@@ -4,7 +4,7 @@
 */
 body{
     max-width: 1440px;
-    margin: 3% 15%;
+    margin: 2% 15%;
     background-color:#f0fff4 ;
     font-size: 1.5rem;
 }
@@ -33,6 +33,10 @@ input,select{
     margin: 4% 30%;
     font-size: 1.25rem;
 }
+.ngo-btn{
+    width: 20rem;
+    margin: 3% 18%;
+}
 .btn:hover{
     background-color: aliceblue;
     color: black;
@@ -49,6 +53,11 @@ input,select{
     .btn{
         padding:2% 8%;
         font-size: 1.25rem;
+        
+    }
+    .ngo-btn{
+        width:12rem ;
+
     }
     
 } 
@@ -64,6 +73,12 @@ input,select{
     .btn{
         padding:2% 8%;
         font-size: 1.75rem;
+        
     }
+    .ngo-btn{
+        width: 20rem;
+        margin: 4% 20%;
+    }
+    
     
 } 
