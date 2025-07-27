@@ -1,0 +1,69 @@
+/*color
+#f0fff4
+#f5fff9 
+*/
+body{
+    max-width: 1440px;
+    margin: 3% 15%;
+    background-color:#f0fff4 ;
+    font-size: 1.5rem;
+}
+form{
+    position: absolute;
+    width: 70%;
+    
+}
+select,label,input{
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    width: 70%;
+    height:25px;
+    border-radius: 5px;
+
+}
+input,select{
+    border:1px solid ;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1% 5%;
+    border-radius: 5px;
+    margin: 4% 30%;
+    font-size: 1.25rem;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+/*mobile responsive*/
+@media screen and (max-width:576px){
+    body{
+        margin:15% 12%;
+        font-size: 1.5rem;
+    }
+    select,label,input{
+        width: 100%;
+    }
+    .btn{
+        padding:2% 8%;
+        font-size: 1.25rem;
+    }
+    
+} 
+/*tab responsive*/
+@media screen and (min-width:576px) and (max-width: 992px){
+    body{
+        margin:15% 12%;
+        font-size: 1.75rem;
+    }
+    select,label,input{
+        width: 100%;
+    }
+    .btn{
+        padding:2% 8%;
+        font-size: 1.75rem;
+    }
+    
+} 
