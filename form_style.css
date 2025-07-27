@@ -25,6 +25,23 @@ select,label,input{
 input,select{
     border:1px solid ;
 }
+
+.check-box {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#chk-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#chk-box-label {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
 .btn{
     background-color: black;
     color: white;
@@ -38,8 +55,9 @@ input,select{
     margin: 3% 18%;
 }
 .btn:hover{
-    background-color: aliceblue;
+    background-color: rgba(200, 213, 224, 0.8);
     color: black;
+    cursor: pointer;
 }
 /*mobile responsive*/
 @media screen and (max-width:576px){
@@ -58,6 +76,10 @@ input,select{
     .ngo-btn{
         width:12rem ;
 
+    }
+    #chk-box-label {
+        margin-top: 5px;
+        font-size: 0.8rem;
     }
     
 } 
@@ -78,6 +100,7 @@ input,select{
     .ngo-btn{
         width: 20rem;
         margin: 4% 20%;
+        font-size: 1rem;
     }
     
     
