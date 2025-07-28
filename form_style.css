@@ -1,26 +1,34 @@
 /*color
 #f0fff4
-#f5fff9 
+#f5fff9
+rgba(200, 213, 224, 0.8) 
 */
 body{
     max-width: 1440px;
     margin: 2% 15%;
     background-color:#f0fff4 ;
     font-size: 1.5rem;
+    box-sizing: border-box;
 }
 form{
+    padding: 2%;
     position: absolute;
     width: 70%;
+    box-shadow: 5px 5px 5px 5px rgba(200, 213, 224);
+    
     
 }
-select,label,input{
+select,label,input,textarea{
     display: block;
     margin-bottom: 5px;
     position: relative;
-    width: 70%;
+    width: 80%;
     height:25px;
     border-radius: 5px;
 
+}
+textarea{
+    height: 80px;
 }
 input,select{
     border:1px solid ;
@@ -45,10 +53,11 @@ input,select{
 .btn{
     background-color: black;
     color: white;
-    padding: 1% 5%;
+    padding: 1% 3%;
     border-radius: 5px;
-    margin: 4% 30%;
+    margin: 2% 30%;
     font-size: 1.25rem;
+    display: block;
 }
 .ngo-btn{
     width: 20rem;
@@ -58,6 +67,16 @@ input,select{
     background-color: rgba(200, 213, 224, 0.8);
     color: black;
     cursor: pointer;
+}
+.feedback-heading{
+    margin-bottom:0 ;
+    margin-top: 2px;
+    font-size: 2.5rem;
+}
+.feedback-description{
+    font-size: 1.2rem;
+    margin-top: 0px;
+    padding-bottom:20px;
 }
 /*mobile responsive*/
 @media screen and (max-width:576px){
@@ -80,6 +99,9 @@ input,select{
     #chk-box-label {
         margin-top: 5px;
         font-size: 0.8rem;
+    }
+    form{
+        box-shadow: none ;
     }
     
 } 
